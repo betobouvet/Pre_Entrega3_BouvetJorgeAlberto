@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de compra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="nombre">
+        <label for="nombreInput">Ingresa tu nombre:</label>
+        <input type="text" id="nombreInput">
+        <button id="enviarNombre">Enviar</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <main id="acceso">
+        <section>
+            <article>
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Turbo</h5>
+                        <p class="card-text">Turbina Marca ACME</p>
+                        <a data-precio="65000" data-descuento="10" href="#"
+                            class="btn btn-primary producto-enlace">COMPRAR</a>
+                        <p class="precio-con-descuento"></p>
+                        <p class="precio"></p>
+                        <p class="descuento"></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BUJIAS PARA BICICLETA</h5>
+                        <p class="card-text">Te pega una descarga eléctrica en cada pierna para ayudar al pedaleo</p>
+                        <a data-precio="5000" data-descuento="25" href="#"
+                            class="btn btn-primary producto-enlace">COMPRAR</a>
+                        <p class="precio-con-descuento"></p>
+                        <p class="precio"></p>
+                        <p class="descuento"></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embrague para patineta</h5>
+                        <p class="card-text">No sirve para patineta, puede llegar a funcionar en un fiat 600 (origen
+                            Chino)</p>
+                        <a data-precio="23000" data-descuento="30" href="#"
+                            class="btn btn-primary producto-enlace">COMPRAR</a>
+                        <p class="precio-con-descuento"></p>
+                        <p class="precio"></p>
+                        <p class="descuento"></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="./root/js/script.js"></script>
+</body>
+
+</html>
